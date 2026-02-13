@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+  <h1>User Dashboard</h1>
+
+  <input type="text" id="search" placeholder="Search user...">
+
+  
+  <select id="sort">
+    <option value="">Sort By</option>
+    <option value="asc">Name A-Z</option>
+    <option value="desc">Name Z-A</option>
+  </select>
+
+  
+  <div id="app"></div>
+
+  
+  <div class="pagination">
+    <button id="prev">Prev</button>
+    <span id="page"></span>
+    <button id="next">Next</button>
+  </div>
+
+  <script src="/js/app.js"></script>
+</body>
+</html>
